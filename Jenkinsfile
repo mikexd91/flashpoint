@@ -11,6 +11,7 @@ pipeline {
     tools {
         ant 'ant'
         jdk 'java jdk'
+        jdk 'javaoracle'
     }
     stages {
         // stage('Checkout'){
