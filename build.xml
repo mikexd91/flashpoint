@@ -149,8 +149,8 @@
 	
 	
 		<fx:resources id="appRes">
-			<fx:fileset dir="dist" includes="flashpoint.jar"/>
-			<fx:fileset dir="dist" includes="libs/*"/>
+			<fx:fileset dir="${basedir}/build/dist" includes="flashpoint.jar"/>
+			<fx:fileset dir="${basedir}/build/dist" includes="libs/*"/>
 		</fx:resources>
 	
 		<fx:application id="fxApplication"
