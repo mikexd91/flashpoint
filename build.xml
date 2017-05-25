@@ -114,7 +114,7 @@
 			</fileset>
 		</copy>
 	
-		<javac includeantruntime="false" source="1.8" target="1.8" srcdir="build/src" destdir="${basedir}/build/build/classes" encoding="UTF-8">
+		<javac includeantruntime="false" source="1.8" target="1.8" srcdir="${basedir}/build/build/src" destdir="${basedir}/build/build/classes" encoding="UTF-8">
 			<classpath>
 				<fileset dir="${basedir}/build/build/libs">
 					<include name="*"/>
