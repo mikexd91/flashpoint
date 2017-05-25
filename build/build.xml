@@ -20,59 +20,59 @@
 		<mkdir dir="externalLibs" />
 	
 		<copy todir="externalLibs">
-			<fileset dir="/Users/xunda/Documents/workspace/flashpoint/libs">
+			<fileset dir="/workspace/libs">
 				<filename name="gson-2.6.1.jar"/>
 			</fileset>
 		</copy>
 		<copy todir="externalLibs">
-			<fileset dir="/Users/xunda/Documents/workspace/flashpoint/libs">
+			<fileset dir="/workspace/libs">
 				<filename name="controlsfx-8.40.10.jar"/>
 			</fileset>
 		</copy>
 		<copy todir="externalLibs">
-			<fileset dir="/Users/xunda/Documents/workspace/flashpoint/libs">
+			<fileset dir="/workspace/libs">
 				<filename name="prettytime-4.0.1.Final.jar"/>
 			</fileset>
 		</copy>
 		<copy todir="externalLibs">
-			<fileset dir="/Users/xunda/.p2/pool/plugins">
+			<fileset dir="/workspace/libs">
 				<filename name="org.hamcrest.core_1.3.0.v201303031735.jar"/>
 			</fileset>
 		</copy>
 		<copy todir="externalLibs">
-			<fileset dir="/Users/xunda/Documents/workspace/flashpoint/libs">
+			<fileset dir="/workspace/libs">
 				<filename name="TrayTester.jar"/>
 			</fileset>
 		</copy>
 		<copy todir="externalLibs">
-			<fileset dir="/Users/xunda/Documents/workspace/flashpoint/libs">
+			<fileset dir="/workspace/libs">
 				<filename name="commons-lang3-3.4.jar"/>
 			</fileset>
 		</copy>
 		<copy todir="externalLibs">
-			<fileset dir="/Users/xunda/Documents/workspace/flashpoint/libs">
+			<fileset dir="/workspace/libs">
 				<filename name="prettytime-nlp-4.0.1.Final.jar"/>
 			</fileset>
 		</copy>
 		<copy todir="externalLibs">
-			<fileset dir="/Users/xunda/.p2/pool/plugins/org.junit_4.12.0.v201504281640">
+			<fileset dir="/workspace/libs">
 				<filename name="junit.jar"/>
 			</fileset>
 		</copy>
 		<copy todir="externalLibs">
-			<fileset dir="/Users/xunda/Documents/workspace/flashpoint/libs">
+			<fileset dir="/workspace/libs">
 				<filename name="Collate-GUI.jar"/>
 			</fileset>
 		</copy>
 	
 		<mkdir dir="project" />
 		<copy todir="project">
-			<fileset dir="/Users/xunda/Documents/workspace/flashpoint">
+			<fileset dir="/workspace">
 				<include name="src/**" />
 			</fileset>
 		</copy>
 		<copy todir="project">
-			<fileset dir="/Users/xunda/Documents/workspace/flashpoint">
+			<fileset dir="/workspace">
 				<include name="libs/**" />
 			</fileset>
 		</copy>
