@@ -162,7 +162,7 @@
 	
 	
 	
-		<fx:jar destfile="${basedir}/build/build/dist/flashpoint.jar">
+		<fx:jar destfile="${basedir}/build/dist/flashpoint.jar">
 			<fx:application refid="fxApplication"/>
 			<fileset dir="${basedir}/build/build/classes">
 			</fileset>
