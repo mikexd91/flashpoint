@@ -185,7 +185,7 @@
 			includeDT="false"
 			offlineAllowed="true"
 			outdir="${basedir}/build/deploy"
-			outfile="flashpoint" nativeBundles="exe"
+			outfile="flashpoint" nativeBundles="none"
 			updatemode="background" >
 	
 			<fx:platform basedir="${java.home}"/>
